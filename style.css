@@ -1,0 +1,75 @@
+
+
+html, body { 
+    height: 100%;
+}
+
+body {
+    background-color: #202632;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #313A49;
+    border-radius: 20px;
+
+    max-width: 540px;
+    height: 335px;
+}
+
+#button {
+    position: absolute;
+    bottom: 0;
+    background: #53FFAB;
+    border-radius: 50%;
+
+    width: 65px;
+    height: 65px;
+
+    border: none;
+    cursor: pointer;
+
+    margin-bottom: -30px;
+}
+
+.title {
+    color: #53FFAB;
+    font-size: 15px;
+    padding: 0;
+
+    margin: 0 0 25px;
+}
+
+.advice-style {
+    color: #D9D9D9;
+    margin-bottom: 40px;
+    font-size: 30px;
+    text-align: center;
+}
+
+div > img {
+    width: 463px;
+    height: 17px;
+
+    margin: 0 38px 40px 38px;
+    
+}
+
+button > img {
+    width: 28px;
+    height: 28px;
+
+}
+
+
